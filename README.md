@@ -11,3 +11,5 @@ I'm doing this course to simply understand an application in Ruby (with the rail
 Sincerely, Max Van de Perre
 
 # Testing the osxkeychain helper
+
+Testing this out
