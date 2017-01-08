@@ -31,6 +31,9 @@ gem 'bootstrap-sass'
 # Get the devise gem
 gem 'devise', '~> 3.1.0.rc2'
 
+# Get gem paperclip
+gem 'paperclip', '~> 4.2'
+
 group :development, :test do
 	gem 'sqlite3'
 end

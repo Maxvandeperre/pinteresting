@@ -81,4 +81,9 @@ Pinteresting::Application.configure do
   # Required for Heroku
   # Note to set this to the actual hostname
   config.action_mailer.default_url_options = { :host => 'maxvandeperre-pinteresting.herokuapp.com' }
+
+  # Paperclip config:
+  Paperclip.options[:image_magick_path] = "/opt/ImageMagick/bin"
+  Paperclip.options[:command_path] = "/opt/ImageMagick/bin"
+
 end
