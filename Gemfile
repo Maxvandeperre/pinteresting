@@ -37,6 +37,11 @@ gem 'aws-sdk', '~> 1.16.1'
 # Get jquery masonry rails gem to do pinterest layout
 gem 'masonry-rails', '~> 0.2.0'
 
+# Get pagination
+gem 'will_paginate', '~> 3.0.5'
+
+#Pagination bootstrap
+gem 'will_paginate-bootstrap'
 
 group :development, :test do
 	gem 'sqlite3'
