@@ -19,9 +19,6 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
-
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
@@ -36,6 +33,10 @@ gem 'paperclip', '~> 4.2'
 
 # Get Amazon S3 gem rolling
 gem 'aws-sdk', '~> 1.16.1'
+
+# Get jquery masonry rails gem to do pinterest layout
+gem 'masonry-rails', '~> 0.2.0'
+
 
 group :development, :test do
 	gem 'sqlite3'
